@@ -29,12 +29,13 @@ Users should be able to:
 
 ### Screenshot
 
-[](./screenshot.jpg)
+[Screenshot](./screenshot.jpg)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/PavlinaPs/Interactive-rating-component]
+- Live Site URL: [https://pavlinaps.github.io/Interactive-rating-component/]
+
 
 ## My process
 
@@ -76,7 +77,7 @@ Most of all, I need to get faster in coding.
 
 ### Useful resources
 
-- (https://youtu.be/lRaL-8qZ0mM) - Create a Design System with CSS - Web Development Course. Kevin Powell is great!
+- Create a Design System with CSS - Web Development Course. Kevin Powell is great! https://youtu.be/lRaL-8qZ0mM
 
 ## Author
 
