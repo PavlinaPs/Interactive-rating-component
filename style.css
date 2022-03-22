@@ -24,7 +24,7 @@
     --fs-m-h: 23px;
 
     --fw-normal: 400;
-    --fw-h: 590;
+    --fw-h: 700;
 }
 
 /*** reset ***/
@@ -134,14 +134,14 @@ p {
 .numbers:focus {
     color: var(--color-white);
     background-color: var(--bg-accent);
-    border: 2px solid var(--bg-darkest);
+    border: 1px solid var(--bg-darkest);
     cursor: pointer;
 }
 
 .numbers[aria-checked='true'] {
     color: var(--color-white);
     background-color: var(--bg-grey);
-    border: 2px solid var(--bg-darkest);
+    border: 1px solid var(--bg-darkest);
     cursor: pointer;
 }
 
@@ -149,12 +149,12 @@ p {
     margin-top: 6px;
     height: 50px;
     font-size: var(--fs-body);
-    font-weight: var(--fw-normal);
+    font-weight: var(--fw-h);
     letter-spacing: 3px;
     color: var(--bg-white);
     text-transform: uppercase;
     background-color: var(--color-accent);
-    border: 2px solid var(--bg-darkest);
+    border: 1px solid var(--bg-darkest);
     border-radius: 50px;
 }
 
