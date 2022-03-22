@@ -64,11 +64,11 @@ section > * {
     flex-shrink: 0;
 }
 
-#rating[data-visible='true'] {
+#rating[aria-hidden='false'] {
     display: flex;
 }
 
-#rating[data-visible='false'] {
+#rating[aria-hidden='true'] {
     display: none;
 }
 
@@ -155,12 +155,12 @@ p {
 }
 
 /* thank-you */
-#thank-you[data-visible='true'] {
+#thank-you[aria-hidden='false'] {
     display: flex;
     align-items: center;
 }
 
-#thank-you[data-visible='false'] {
+#thank-you[aria-hidden='true'] {
     display: none;
 }
 
