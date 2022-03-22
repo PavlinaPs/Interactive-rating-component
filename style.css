@@ -50,7 +50,6 @@ body {
 }
 
 section {
-    display: flex;
     flex-direction: column;
     gap: 12px;
     width: 410px;
@@ -65,7 +64,11 @@ section > * {
     flex-shrink: 0;
 }
 
-#rating {
+#rating[data-visible='true'] {
+    display: flex;
+}
+
+#rating[data-visible='false'] {
     display: none;
 }
 
@@ -123,7 +126,7 @@ p {
     cursor: pointer;
 }
 
-.active {
+.numbers[aria-selected='true'] {
     color: var(--color-white);
     background-color: var(--bg-grey);
     border: 2px solid var(--bg-darkest);
@@ -152,9 +155,13 @@ p {
 }
 
 /* thank-you */
-#thank-you {
+#thank-you[data-visible='true'] {
     display: flex;
     align-items: center;
+}
+
+#thank-you[data-visible='false'] {
+    display: none;
 }
 
 .illustration {
