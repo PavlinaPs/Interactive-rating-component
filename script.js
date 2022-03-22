@@ -8,9 +8,9 @@ let choice = [];
 function selectRating(){
     let numberId;
     numbers.forEach(number => number.addEventListener('click', (e) => {
-        numbers.forEach(item => item.setAttribute('aria-checked', 'false'));
+        numbers.forEach(item => item.setAttribute('aria-pressed', 'false'));
         numberId = e.target.id;
-        number.setAttribute('aria-checked', 'true');
+        number.setAttribute('aria-pressed', 'true');
         choice.push(numberId);
         numberSelected.innerText = numberId;
     }));

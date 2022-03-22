@@ -55,6 +55,7 @@ body {
     min-height: 100vh;
     max-height: 796px;
     max-width: 1440px;
+    margin-inline: 50%;
     font-family: var(--ff-sans);
     font-size: var(--fs-body);
     font-weight: var(--fw-normal);
@@ -138,7 +139,7 @@ p {
     cursor: pointer;
 }
 
-.numbers[aria-checked='true'] {
+.numbers[aria-pressed='true'] {
     color: var(--color-white);
     background-color: var(--bg-grey);
     border: 1px solid var(--bg-darkest);
