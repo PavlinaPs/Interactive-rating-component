@@ -138,7 +138,7 @@ p {
     cursor: pointer;
 }
 
-.numbers[aria-selected='true'] {
+.numbers[aria-checked='true'] {
     color: var(--color-white);
     background-color: var(--bg-grey);
     border: 2px solid var(--bg-darkest);
