@@ -55,7 +55,7 @@ body {
     min-height: 100vh;
     max-height: 796px;
     max-width: 1440px;
-    margin-inline: 50%;
+    margin-inline: auto;
     font-family: var(--ff-sans);
     font-size: var(--fs-body);
     font-weight: var(--fw-normal);

@@ -29,12 +29,12 @@ Users should be able to:
 
 ### Screenshot
 
-[Screenshot](./screenshot.jpg)
+![Screenshot](./screenshot.jpg)
 
 ### Links
 
-- Solution URL: [https://github.com/PavlinaPs/Interactive-rating-component]
-- Live Site URL: [https://pavlinaps.github.io/Interactive-rating-component/]
+- Solution URL: https://github.com/PavlinaPs/Interactive-rating-component
+- Live Site URL: https://pavlinaps.github.io/Interactive-rating-component/
 
 
 ## My process
